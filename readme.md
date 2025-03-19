@@ -47,5 +47,6 @@ http://localhost:8501
 
 
 
-🔗 [Streamlit App]
-- https://llamaindexforcomplexfinacialstatements-ac3tb4gjr2ehuiqhw8zx4f.streamlit.app/
+## 🚀 Streamlit App
+
+🔗 [Streamlit App](https://llamaindexforcomplexfinacialstatements-ac3tb4gjr2ehuiqhw8zx4f.streamlit.app)

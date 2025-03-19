@@ -13,7 +13,7 @@ POST_URL = "https://api.cloud.llamaindex.ai/api/parsing/upload"
 GET_URL = "https://api.cloud.llamaindex.ai/api/parsing/job"
 
 # Check environment
-st.write("Application started")
+# st.write("Application started")
 try:
     # ✅ Only access specific secrets, don't display all of them
     API_KEY = st.secrets["LLAMAPARSE_API_KEY"]

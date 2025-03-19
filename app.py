@@ -32,7 +32,7 @@ except:
 
 
 # Streamlit UI
-st.title("📄 PDF Table Extractor with LlamaParse")
+st.title("📄 Financial Statement Extractor")
 
 # Upload PDF
 uploaded_file = st.file_uploader("Upload PDF File", type=["pdf"])

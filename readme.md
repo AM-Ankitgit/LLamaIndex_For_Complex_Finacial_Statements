@@ -1,7 +1,7 @@
-# 📄 **Financial Statement Extraction Using LlamaParse and Streamlit**
+# 📄 **Financial Statement Extraction Using Llama Cloud and Streamlit**
 
 ### 🚀 **Overview**
-This project is a **PDF financial statement extractor** using **LlamaParse API** and **Streamlit**. It allows users to upload PDF files, extract financial tables, and display the results in JSON format. The app also provides the option to **download the extracted JSON**.
+This project is a **PDF financial statement extractor** using **Llama Cloud API** and **Streamlit**. It allows users to upload PDF files, extract financial tables, and display the results in JSON format. The app also provides the option to **download the extracted JSON**.
 
 ---
 
@@ -16,10 +16,10 @@ This project is a **PDF financial statement extractor** using **LlamaParse API**
 ### 🛠️ **Tech Stack**
 - **Language:** Python
 - **Framework:** Streamlit
-- **API:** LlamaParse (for document parsing)
+- **API:** Llama Cloud (for document parsing)
 - **Libraries:**  
   - `gpt model` → gpt-4o  
-  - `requests` → To interact with the LlamaParse API.
+  - `requests` → To interact with the Llama Cloud API.
   - `json` → To format and display extracted data.
   - `os`, `pathlib` → For file management.
   - `argparse` → For command-line argument parsing.
@@ -31,15 +31,14 @@ This project is a **PDF financial statement extractor** using **LlamaParse API**
 
 1. **Clone the Repository**
 ```bash
-git clone <repository_link>
-cd <repository_directory>
-
+git clone https://github.com/AM-Ankitgit/LLamaIndex_For_Complex_Finacial_Statements.git
+cd LLamaIndex_For_Complex_Finacial_Statements
 
 pip install -r requirements.txt
 
-LLAMAPARSE_API_KEY=<your_api_key>  # https://cloud.llamaindex.ai/
-LLAMAPARSE_POST_URL=https://api.cloud.llamaindex.ai/api/parsing/upload
-LLAMAPARSE_GET_URL=https://api.cloud.llamaindex.ai/api/parsing/job
+LLAMA Cloud_API_KEY=<your_api_key>  # https://cloud.llamaindex.ai/
+LLAMA Cloud_POST_URL=https://api.cloud.llamaindex.ai/api/parsing/upload
+LLAMA Cloud_GET_URL=https://api.cloud.llamaindex.ai/api/parsing/job
 
 
 streamlit run app.py

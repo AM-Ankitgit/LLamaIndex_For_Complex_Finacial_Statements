@@ -27,10 +27,6 @@ except:
 
 
 
-
-
-
-
 # Streamlit UI
 st.title("📄 PDF Table Extractor with LlamaParse")
 

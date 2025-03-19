@@ -13,6 +13,7 @@ POST_URL = "https://api.cloud.llamaindex.ai/api/parsing/upload"
 GET_URL = "https://api.cloud.llamaindex.ai/api/parsing/job"
 
 # Check environment
+st.write("Application started")
 try:
     # Check if running on Streamlit Cloud
     st.secrets

@@ -43,3 +43,9 @@ LLAMAPARSE_GET_URL=https://api.cloud.llamaindex.ai/api/parsing/job
 
 
 streamlit run app.py
+http://localhost:8501
+
+
+
+
+🔗 [Streamlit App](https://llamaindexforcomplexfinacialstatements-ac3tb4gjr2ehuiqhw8zx4f.streamlit.app/)

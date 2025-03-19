@@ -15,19 +15,18 @@ GET_URL = "https://api.cloud.llamaindex.ai/api/parsing/job"
 # Check environment
 st.write("Application started")
 try:
-    # Check if running on Streamlit Cloud
-    st.secrets
-    st.write("Running on Streamlit Cloud")
-    
-    # Load API keys
+    # ✅ Only access specific secrets, don't display all of them
     API_KEY = st.secrets["LLAMAPARSE_API_KEY"]
     OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+    
+    st.write("Running on Streamlit Cloud")
 
 except:
     # Running locally
     st.write("Running on Local Machine")
     OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
     API_KEY = os.getenv("LLAMAPARSE_API_KEY")
+
 
 
 
